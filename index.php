@@ -35,7 +35,7 @@
                 </div>
                 <a href="video.html<?php echo createUrl(); ?>" class="link">Take me to the video.</a>
             
-                <p>You will be redirected to the video in 9 seconds...</p>
+                <p>You will be redirected to the video in <span id="count">10</span> seconds...</p>
             </div><!-- end #content -->
         </div><!-- end #content-wrap -->
 
