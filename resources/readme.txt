@@ -1,0 +1,1 @@
+Boilerplate Resource Folder: All resource files should be placed in this folder. All new or edited PSD files should go here.

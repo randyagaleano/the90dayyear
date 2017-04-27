@@ -1,0 +1,283 @@
+.gridder-bar {
+	position: fixed;
+	bottom: 0px;
+	right:0px;
+	z-index: 9999;
+}
+.gridder-bar a {
+	font-family: 'Open Sans', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	margin:0;
+	padding: 1em 2em;
+	display: block;
+	background:rgba(0,171,0,0.7);
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.gridder-bar a:hover,
+.gridder-bar a:focus,
+.gridder-bar a:active  {
+	background:rgba(0,171,0,1);
+}
+.gridder-bar a.active {
+	font-family: 'Open Sans', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	margin:0;
+	padding: 1em 2em;
+	display: block;
+	background:rgba(171,0,0,0.7);
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.gridder-bar a.active:hover,
+.gridder-bar a.active:focus,
+.gridder-bar a.active:active  {
+	background:rgba(171,0,0,1);
+}
+.gridder {
+	display: none;
+	position: fixed;
+	z-index: 9996;
+	height: 100%;
+	width:100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.gridder .container {
+	position: fixed;
+	z-index: 9997;
+	height: 100%;
+	width:1200px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 50%;
+	margin: 0 0 0 -600px;
+}
+.gridder .grid-1 {
+	position: absolute;
+	z-index: 9998;
+	background:rgba(255,0,0,0.3);
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+.gridder .grid-1.col-1 {
+	left:20px;
+}
+.gridder .grid-1.col-2 {
+	left:120px;
+}
+.gridder .grid-1.col-3 {
+	left:220px;
+}
+.gridder .grid-1.col-4 {
+	left:320px;
+}
+.gridder .grid-1.col-5 {
+	left:420px;
+}
+.gridder .grid-1.col-6 {
+	left:520px;
+}
+.gridder .grid-1.col-7 {
+	left:620px;
+}
+.gridder .grid-1.col-8 {
+	left:720px;
+}
+.gridder .grid-1.col-9 {
+	left:820px;
+}
+.gridder .grid-1.col-10 {
+	left:920px;
+}
+.gridder .grid-1.col-11 {
+	left:1020px;
+}
+.gridder .grid-1.col-12 {
+	left:1120px;
+}
+@media only screen and (max-width : 1220px) {
+	.gridder .container {
+		position: fixed;
+		z-index: 9997;
+		height: 100%;
+		width:960px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 50%;
+		margin: 0 0 0 -480px;
+	}
+	.gridder .grid-1 {
+		position: absolute;
+		z-index: 9998;
+		background:rgba(255,0,0,0.3);
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.gridder .grid-1.col-1 {
+		left:10px;
+	}
+	.gridder .grid-1.col-2 {
+		left:90px;
+	}
+	.gridder .grid-1.col-3 {
+		left:170px;
+	}
+	.gridder .grid-1.col-4 {
+		left:250px;
+	}
+	.gridder .grid-1.col-5 {
+		left:330px;
+	}
+	.gridder .grid-1.col-6 {
+		left:410px;
+	}
+	.gridder .grid-1.col-7 {
+		left:490px;
+	}
+	.gridder .grid-1.col-8 {
+		left:570px;
+	}
+	.gridder .grid-1.col-9 {
+		left:650px;
+	}
+	.gridder .grid-1.col-10 {
+		left:730px;
+	}
+	.gridder .grid-1.col-11 {
+		left:810px;
+	}
+	.gridder .grid-1.col-12 {
+		left:890px;
+	}
+}
+@media only screen and (max-width : 980px) {
+	.gridder .container {
+		position: fixed;
+		z-index: 9997;
+		height: 100%;
+		width:720px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 50%;
+		margin: 0 0 0 -360px;
+	}
+	.gridder .grid-1 {
+		position: absolute;
+		z-index: 9998;
+		background:rgba(255,0,0,0.3);
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.gridder .grid-1.col-1 {
+		left:10px;
+	}
+	.gridder .grid-1.col-2 {
+		left:70px;
+	}
+	.gridder .grid-1.col-3 {
+		left:130px;
+	}
+	.gridder .grid-1.col-4 {
+		left:190px;
+	}
+	.gridder .grid-1.col-5 {
+		left:250px;
+	}
+	.gridder .grid-1.col-6 {
+		left:310px;
+	}
+	.gridder .grid-1.col-7 {
+		left:370px;
+	}
+	.gridder .grid-1.col-8 {
+		left:430px;
+	}
+	.gridder .grid-1.col-9 {
+		left:490px;
+	}
+	.gridder .grid-1.col-10 {
+		left:550px;
+	}
+	.gridder .grid-1.col-11 {
+		left:610px;
+	}
+	.gridder .grid-1.col-12 {
+		left:670px;
+	}
+}
+/* ==========================================================================
+10. MOBILE CSS
+Fluid width
+10px page margins
+========================================================================== */
+@media only screen and (max-width : 760px) {
+	.gridder .container {
+		position: fixed;
+		z-index: 9997;
+		height: 100%;
+		width:100%;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: auto;
+		margin: 0 0;
+	}
+	.gridder .grid-1 {
+		position: absolute;
+		z-index: 9998;
+		background:rgba(255,0,0,0.3);
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.gridder .grid-1.col-1 {
+		left:10px;
+		right:10px;
+		width:auto;
+	}
+	.gridder .grid-1.col-2,
+	.gridder .grid-1.col-3,
+	.gridder .grid-1.col-4,
+	.gridder .grid-1.col-5,
+	.gridder .grid-1.col-6,
+	.gridder .grid-1.col-7,
+	.gridder .grid-1.col-8,
+	.gridder .grid-1.col-9,
+	.gridder .grid-1.col-10,
+	.gridder .grid-1.col-11,
+	.gridder .grid-1.col-12 {
+		left:auto;
+		display: none;
+	}
+}
