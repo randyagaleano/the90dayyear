@@ -14,6 +14,7 @@ jQuery(document).ready(function($) {
     }); 
 });
 
+// countdown redirect
 window.onload = function(){
 (function(){
     var counter = 10,
@@ -32,6 +33,7 @@ window.onload = function(){
 })();
 }
 
+// twitter share 
 $('.popup').click(function(event) {
 var width  = 575,
     height = 400,
@@ -47,6 +49,7 @@ window.open(url, 'twitter', opts);
 return false;
 });
 
+// facebook share
 $('.fbpopup').click(function(event) {
 var width  = 575,
     height = 400,

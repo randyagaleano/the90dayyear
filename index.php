@@ -58,6 +58,7 @@
 
 </html>
 
+<!-- url creation -->
 <?php
 function createUrl() {
     $url_parameters = '?';
