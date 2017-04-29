@@ -28,12 +28,17 @@
             <div id="content">
                 <h1>Spread the word!</h1>
                 <div class="buttons">
-                    <a href="#" class="fb" target="_blank"><span class="fa fa-facebook"></span> Share on Facebook</a>
+                    
+                    <!-- <a href="#" class="fb" target="_blank"><span class="fa fa-facebook"></span> Share on Facebook</a> -->
+                    <a href="https://facebook.com/share?text=" class="fb facebook fbpopup" target="_blank"><span class="fa fa-facebook"></span> Share on Facebook</a>
 
-                    <a href="https://twitter.com/share?text=Turns%20out%20there%27s%20a%20%27brain%20type%27%20for%20achieving%20goals.%20Thx%20@todd_herman%20for%20the%20guide%20-%20" class="tw" target="_blank"><span class="fa fa-twitter"></span> Share on Twitter</a>
+                    <!-- <a href="" class="tw" target="_blank"><span class="fa fa-twitter"></span> Share on Twitter</a> -->
+                    <a class="tw twitter popup" href="https://twitter.com/share?text="><span class="fa fa-twitter"></span>Share on Twitter</a>
+
+
 
                 </div>
-                <a href="video.html<?php echo createUrl(); ?>" class="link">Take me to the video.</a>
+                <a href="video.html<?php echo createUrl(); ?>" class="link" id="videoLink">Take me to the video.</a>
             
                 <p>You will be redirected to the video in <span id="count">10</span> seconds...</p>
             </div><!-- end #content -->
@@ -43,11 +48,14 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/main.js" async></script>
         <script src="js/boilerplate.js"></script>
-
     
     </body>
+
+
+<script type="text/javascript"></script>
+
 </html>
 
 <?php
